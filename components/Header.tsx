@@ -3,19 +3,17 @@ import React from "react";
 
 const Header = () => {
   return (
-    <>
-      <Link href="./">
+    <><div>
+      <Link href="./" className="but1">
         <button>Home</button>
       </Link>
-      <Link href="./About">
+      <Link href="./About" className="but2">
         <button>About</button>
       </Link>
-      <Link href="./">
+      <Link href="./dashboard" className="but3">
         <button>Dashboard</button>
       </Link>
-      <Link href="./">
-        <button>About</button>
-      </Link>
+      </div>
     </>
   );
 };

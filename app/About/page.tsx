@@ -2,23 +2,13 @@ import Link from 'next/link'
 import React from 'react'
 import Home from '../page'
 import Aabout from '@/components/Aabout'
+import Header from '@/components/Header'
 
 const about = () => {
   return (
     <div>
-        <Link href="./">
-        <button>Home</button>
-        </Link>
-        <Link href="./">
-        <button>About</button>
-        </Link>
-        <Link href="./">
-        <button>Home</button>
-        </Link>
-        <Link href="./">
-        <button>Home</button>
-        </Link>
-        <Aabout></Aabout>
+        <Header></Header>
+        <span>About</span>
     </div>
   )
 }
